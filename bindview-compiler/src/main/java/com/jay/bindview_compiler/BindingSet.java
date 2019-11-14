@@ -59,7 +59,7 @@ final class BindingSet{
                 .addModifiers(Modifier.PUBLIC)
                 .addOriginatingElement(enclosingElement); //设置注解处理器的源元素
         //添加解绑接口
-        result.addSuperinterface(ClassName.get("com.jay.bingview", "Unbinder"));
+        result.addSuperinterface(ClassName.get("com.jay.bindviewlib", "Unbinder"));
         //添加activity字段target
         result.addField(targetTypeName, "target");
         //添加构造方法
