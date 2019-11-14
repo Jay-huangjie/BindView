@@ -1,2 +1,2 @@
-include ':app'
+include ':app', ':bindview-annotations', ':bindview-compiler', ':bindviewlib'
 rootProject.name='BindView'

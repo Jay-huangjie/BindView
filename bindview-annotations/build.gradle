@@ -1,0 +1,9 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    api "androidx.annotation:annotation:1.1.0"
+}
+
+sourceCompatibility = "8"
+targetCompatibility = "8"
